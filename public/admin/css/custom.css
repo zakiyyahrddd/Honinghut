@@ -1,0 +1,107 @@
+body {
+    /*background-color: #f1f5f9;*/
+    background-color: #ecf0f5;
+}
+
+.section .section-header {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.card {
+    -webkit-box-shadow: 0 0 0 0.5px rgba(49, 49, 93, .03), 0 2px 5px 0 rgba(49, 49, 93, .1), 0 1px 2px 0 rgba(0, 0, 0, .08);
+    box-shadow: 0 0 0 0.5px rgba(49, 49, 93, .03), 0 2px 5px 0 rgba(49, 49, 93, .1), 0 1px 2px 0 rgba(0, 0, 0, .08);
+}
+
+.table-fit {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.table-links button[type=submit] {
+    line-height: normal;
+    vertical-align: top;
+    padding: 0;
+}
+
+form .dropdown-menu button[type=submit] {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+form .dropdown-menu button[type=submit]:focus,
+form .dropdown-menu button[type=submit]:active {
+    background-color: #f8f9fa;
+    outline: none;
+}
+
+.meta-size .badge {
+    margin-right: 4px;
+}
+
+.meta-size .badge>.js-delete-product-size {
+    margin-left: 2px;
+}
+
+.form-group-size>* {
+    height: 30px;
+    font-size: 13px;
+}
+
+.table-links {
+    opacity: 1;
+}
+
+#modal-file {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-file .card {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    text-align: center;
+}
+
+#modal-file img {
+    width: 250px;
+}
+
+#modal-file .close-modal {
+    font-size: 40px;
+    line-height: 34px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+#modal-file .close-modal:hover,
+#modal-file .close-modal:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.navbar .nav-link.nav-link-user img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.table-vertical-middle th,
+.table-vertical-middle td {
+    vertical-align: middle !important;
+}
+
+.select2-container--bootstrap4 .select2-selection--single .select2-selection__rendered {
+    padding: 4px 15px !important;
+}
